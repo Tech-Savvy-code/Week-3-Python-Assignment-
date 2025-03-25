@@ -9,6 +9,7 @@ def calculate_discount(price, discount_percent):
         return final_price
     else:
         return price
+    
 # Get user input
 try:
     price = float(input("Enter the original price of the item in KSHS: "))
